@@ -1,7 +1,7 @@
 {
-  "name": "maxbeckers/amazon-alexa-bundle",
+  "name": "survos/amazon-alexa-bundle",
   "type": "symfony-bundle",
-  "description": "Symfony Bundle for amazon alexa skills.",
+  "description": "Symfony Bundle for amazon alexa skills, forked from maxbeckers/amazon-alexa-bundle",
   "keywords": [
     "alexa",
     "skill",
@@ -23,16 +23,21 @@
       "name": "Maximilian Beckers",
       "email": "beckers.maximilian@gmail.com",
       "role": "Developer"
+    },
+    {
+      "name": "Tac Tacelosky",
+      "email": "tacman@gmail.com",
+      "role": "Developer"
     }
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.2.5",
-    "symfony/config": ">=5.4",
-    "symfony/dependency-injection": ">=5.4",
-    "symfony/framework-bundle": ">=5.4",
-    "symfony/http-foundation": ">=5.4",
-    "symfony/http-kernel": ">=5.4",
+    "php": "^8.1",
+    "symfony/config": "^6.4 || ^7.0",
+    "symfony/dependency-injection": "^6.4 || ^7.0",
+    "symfony/framework-bundle": "^6.4 || ^7.0",
+    "symfony/http-foundation": "^6.4 || ^7.0",
+    "symfony/http-kernel": "^6.4 || ^7.0",
     "maxbeckers/amazon-alexa-php": ">=1.0"
   },
   "autoload": {
