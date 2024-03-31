@@ -1,5 +1,5 @@
 {
-  "name": "survos/amazon-alexa-bundle",
+  "name": "tacman/amazon-alexa-bundle",
   "type": "symfony-bundle",
   "description": "Symfony Bundle for amazon alexa skills, forked from maxbeckers/amazon-alexa-bundle",
   "keywords": [
