@@ -37,3 +37,8 @@ $ssml = $ssmlGenerator->getSsml();
 // $ssml === '<speak>Hallo World</speak>'
 
 ```
+
+## Development
+
+composer config repositories.tacman_alexa '{"type": "path", "url": "/home/tac/g/tacman/amazon-alexa-bundle"}'
+composer req tacman/amazon-alexa-bundle:*@dev

@@ -2,15 +2,20 @@
 
 namespace MaxBeckers\AmazonAlexaBundle\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-
+use MaxBeckers\AmazonAlexaBundle\RequestTransformer\RequestTransformer;
 /**
  * @author Maximilian Beckers <beckers.maximilian@gmail.com>
  */
-class AmazonAlexaController extends Controller
+class AmazonAlexaController extends AbstractController
 {
+
+    public function __construct(private RequestTransformer $requestTransformer)
+    {
+
+    }
     /**
      * @param Request $request
      *
